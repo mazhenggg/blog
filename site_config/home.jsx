@@ -3,24 +3,24 @@ import React from 'react';
 export default {
   'zh-cn': {
     brand: {
-      brandName: '开源产品品牌名称',
-      briefIntroduction: '关于开源产品的简单介绍',
+      brandName: '博客',
+      briefIntroduction: 'GitHub Pages',
       buttons: [
         {
           text: '立即开始',
-          link: '/zh-cn/docs/demo1.html',
+          link: '/zh-cn/blog/index.html',
           type: 'primary',
         },
         {
           text: '查看Github',
-          link: '',
+          link: 'https://github.com/mazhenggg/blog',
           type: 'normal',
         },
       ],
     },
     introduction: {
-      title: '开源产品的介绍',
-      desc: '开源产品的简单介绍，提供一些该产品的优点、特性描述等',
+      title: '博客',
+      desc: 'github page博客',
       img: '/img/architecture.png',
     },
     features: {
